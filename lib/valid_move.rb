@@ -10,6 +10,6 @@ def valid_move?
        taken = false
      elseif
        taken = true
-     elseif 2.between?(0, 8)
+     else 2.between?(0, 8)
     end
   end
